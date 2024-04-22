@@ -19,7 +19,7 @@ app.use(cors());
 
 //connectionurl
 
-const connection_url = "mongodb+srv://kartraco:AdmiN123@cluster0.6dnlkid.mongodb.net/cluster0?retryWrites=true&w=majority"
+
 mongoose.connect(connection_url, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
